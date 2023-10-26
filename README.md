@@ -80,6 +80,19 @@ HPress keys to provide random data...
 [..............................................................................]
 MPress keys to provide random data...
 [..............................................................................]
-user@somehost:/tmp$ 
+user@somehost:/tmp$ ls -lRn /tmp/genpim/f8384202/
+/tmp/genpim/f8384202/:
+total 12
+drwxr-xr-x 2 1000 1000 4096 Oct 26 12:30 db1
+drwxr-xr-x 2 1000 1000 4096 Oct 26 12:30 db2
+-rw-rw-r-- 1 1000 1000    8 Oct 26 12:26 kpim
+
+/tmp/genpim/f8384202/db1:
+total 4
+-rw-rw-r-- 1 1000 1000 432 Oct 26 12:58 kis_1
+
+/tmp/genpim/f8384202/db2:
+total 4
+-rw-rw-r-- 1 1000 1000 432 Oct 26 12:58 kis_1
 ```
 7. Скопируйте и используйте генерированную гамму в своей системе.
